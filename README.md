@@ -1,2 +1,2 @@
-# my-first-python-fourney
+# my-first-python-journey
 I am learning Python
