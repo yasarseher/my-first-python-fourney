@@ -1,11 +1,14 @@
+#parent class
 class Website:
+        "parent"
     def __init__(self, name, surname):
         self.name = name
         self.surname = surname
         
     def loginInfo(self):
         print(self.name + " " + self.surname)
-        
+
+#child class        
 class Website1(Website):
     "child"
     def __init__(self, name, surname, ids):
@@ -14,7 +17,8 @@ class Website1(Website):
        
     def login(self):
         print(self.name + " " + self.surname + " " + self.ids)
-        
+
+#child class        
 class Website2(Website):
     "child"
     def __init__(self, name, surname, email):

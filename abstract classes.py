@@ -21,3 +21,7 @@ class Bird(Animal): # sub class
         
 b1 = Bird()  
 b1.run()
+
+# parent/super class larda kullanılan methodları 
+# clild/sub class larda da yeniden kullanmak zorundayız
+# abstract classlar ve methodların normal class ve methoddan farkı bu.
